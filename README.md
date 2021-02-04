@@ -51,7 +51,7 @@ cd ~/thinkocapo/wasm-game-of-life
 
 https://docs.sentry.io/product/cli/dif/#uploading-files
 
-sentry-cli upload-dif -o will-captel -p js-wasm wasm_game_of_life_bg.debug.wasm
+sentry-cli upload-dif -o will-captel -p js-wasm ./wasm_game_of_life_bg.debug.wasm
 ## Run
 
 Development: 
@@ -83,6 +83,15 @@ cargo-generate helps you get up and running quickly with a new Rust project by l
 rustup --update
 
 This repo used cargo generate --git https://github.com/thinkocapo/wasm-pack-template
+
+
+
+## Notes
+https://github.com/AssemblyScript/assemblyscript/issues/384
+
+
+
+
 
 
 
