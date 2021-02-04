@@ -28,6 +28,10 @@ async function loadWasm(url) {
     return await WebAssembly.instantiateStreaming(fetch(url), importObj);
 }
 
+/**
+ * This errors on:
+ * localhost/:1 Uncaught (in promise) TypeError: WebAssembly.instantiate(): Import #0 module="./wasm_game_of_life_bg.js" error: module is not an object or function
+ */
 // loadWasm("../pkg/wasm_game_of_life_bg.wasm")
 loadWasm("wasm_game_of_life_bg.wasm")
     .then(callback => {
