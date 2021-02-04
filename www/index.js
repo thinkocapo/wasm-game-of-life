@@ -8,4 +8,4 @@ wasm.greet("will cap");
 
 // The alert from .greet() is blocking, this won't run until you OK the alert
 console.log("hi")
-Sentry.captureMessage("hi from wasm-game-of-life app")
+Sentry.captureMessage("hi from wasm-game-of-life app - prod build, npm")

@@ -1,7 +1,7 @@
 Sentry.init({
   dsn: "https://4aa70d5c35d0429fa1b31c1112c118ea@o262702.ingest.sentry.io/5622146",
   release: "0.1.0",
-  environment: "development"
+  environment: "production"
 })
 
 // A dependency graph that contains any wasm must all be imported
